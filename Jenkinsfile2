@@ -41,8 +41,8 @@ pipeline {
                 sh 'mvn test'
             }
         }
-            
-    }
+     }
+   }
 
     // POST ACTIONS
     post {
@@ -59,5 +59,4 @@ pipeline {
             echo 'Pipeline Execution Completed'
         }
     }
-}
 
